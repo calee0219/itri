@@ -67,3 +67,7 @@ body {
 	background-size: 100%;
     height: 47vw;
 }
+
+.shine {
+    border: 10;
+}
