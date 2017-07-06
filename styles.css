@@ -71,3 +71,7 @@ body {
 .shine {
     border: 10;
 }
+
+p {
+    text-indent: 2em;
+}
