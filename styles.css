@@ -154,4 +154,5 @@ p.speach-bubble-right {
 .cj p {
     padding: 0 auto;
     margin: 0 auto;
+    text-indent: 0em;
 }
