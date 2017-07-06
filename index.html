@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="initial-scale=1.0">
+	<meta charset="utf-8">
+	<title>...</title>
+	<!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+  <!-- Google Material icon -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Styles -->
+  <link href="./styles.css" rel="stylesheet">
+</head>
+<body class="row">
+	<nav class="nav-extended light-blue lighten-2">
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo center">I T R I</a>
+    </div>
+    <div class="nav-content">
+      <ul class="tabs tabs-transparent">
+        <li class="tab"><a class="active" href="#map">工研院地圖</a></li>
+        <li class="tab"><a href="#about">關於我們</a></li>
+      </ul>
+    </div>
+  </nav>
+  <br/>
+  <div id="map">
+  	<div class="col s12  m8 l6 xl6 offset-m2 offset-l3 offset-xl3 row container" id="bg">
+	  	<!-- <img src="" id="map" style="width: 100%; position: relative;"> -->
+      <!-- point -->
+	  	<a href="#a">
+	  		<i class="material-icons point col offset-m2 offset-l3 offset-xl3"
+        style="left: 150px;top: 542px;">gps_fixed</i>
+	  	</a>
+      <a href="#b">
+	  	  <i class="material-icons point col offset-m2 offset-l3 offset-xl3"
+        style="left: 38px;top: 428px;">gps_fixed</i>
+      </a>
+      <a href="#c">
+	  	  <i class="material-icons point col offset-m2 offset-l3 offset-xl3"
+        style="left: 464px;top: 489px;">gps_fixed</i>
+      </a>
+      <a href="#d">
+	  	  <i class="material-icons point col offset-m2 offset-l3 offset-xl3"
+        style="left: 266px;top: 466px;">gps_fixed</i>
+      </a>
+      <a href="#e">
+	  	  <i class="material-icons point col offset-m2 offset-l3 offset-xl3"
+        style="left: 538px;top: 412px;">gps_fixed</i>
+      </a>
+      <a href="#f">
+	  	  <i class="material-icons point col offset-m2 offset-l3 offset-xl3"
+        style="left: 259px;top: 569px;">gps_fixed</i>
+      </a>
+      <a href="#g">
+	  	  <i class="material-icons point col offset-m2 offset-l3 offset-xl3"
+        style="left: 154px;top: 432px;">gps_fixed</i>
+      </a>
+      <a href="#h">
+	  	  <i class="material-icons point col offset-m2 offset-l3 offset-xl3"
+        style="left: 626px;top: 423px;">gps_fixed</i>
+      </a>
+  	</div>
+  	 <!-- Modal Structure -->
+  	 <div id="a" class="modal">
+  	 	<div class="modal-content">
+  	 		<h4 class="center">公園停車場</h4>
+  	 		<img src="./images/公園停車場.png" style="width: 100%;">
+  	 	</div>
+  	</div>
+    <div id="b" class="modal">
+      <div class="modal-content">
+        <h4 class="center">花海</h4>
+        <img src="./images/花海.png" style="width: 100%;">
+      </div>
+    </div>
+    <div id="c" class="modal">
+      <div class="modal-content">
+        <h4 class="center">氫能源站</h4>
+        <img src="./images/氫能源站.png" style="width: 100%;">
+      </div>
+    </div>
+    <div id="d" class="modal">
+      <div class="modal-content">
+        <h4 class="center">船型餐廳</h4>
+        <img src="./images/船型餐廳.png" style="width: 100%;">
+      </div>
+    </div>
+    <div id="e" class="modal">
+      <div class="modal-content">
+        <h4 class="center">溫室栽培區</h4>
+        <img src="./images/溫室栽培區.png" style="width: 100%;">
+      </div>
+    </div>
+    <div id="f" class="modal">
+      <div class="modal-content">
+        <h4 class="center">詩人的眼睛</h4>
+        <img src="./images/詩人的眼睛.png" style="width: 100%;">
+      </div>
+    </div>
+    <div id="g" class="modal">
+      <div class="modal-content">
+        <h4 class="center">招待所</h4>
+        <img src="./images/招待所1.png" style="width: 100%;">
+      </div>
+    </div>
+    <div id="h" class="modal">
+      <div class="modal-content">
+        <h4 class="center">竹炭窯</h4>
+        <img src="./images/竹炭窯.png" style="width: 100%;">
+        <img src="./images/竹炭窯2.png" style="width: 100%;">
+      </div>
+    </div>
+  </div>
+  <div id="about">
+    <div class="col s12  m8 l6 xl6 offset-m2 offset-l3 offset-xl3 row container">
+      <img src="./images/團照.jpg" style="width: 100%;">
+    </div>
+  </div>
+  <!-- JQuery -->
+  <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+	<!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+  <!-- map -->
+  <script type="text/javascript" src="./map.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDW8ic5Zpf43ceH5OQm6hHm4kYSDezVmqA&callback=initMap"
+    async defer></script>
+   <!-- materialize initial js -->
+   <script type="text/javascript" src="./styles.js"></script>
+</body>
+</html>
