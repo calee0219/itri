@@ -75,3 +75,11 @@ body {
 p {
     text-indent: 2em;
 }
+
+.title {
+    margin-top: 1em;
+}
+
+div.block {
+    margin: 30px auto;
+}
